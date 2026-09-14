@@ -1,0 +1,77 @@
+/* Configuramos la fuente y el fondo de la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Estilo para la caja blanca central */
+.contenedor {
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Estilos de las letras bonitas */
+h1 {
+    color: #2c3e50;
+    font-size: 3em;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.nombres {
+    font-size: 1.5em;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.asignatura {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Estilos para el campo de texto y botón */
+.formulario {
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 1em;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    width: 200px;
+}
+
+input[type="text"]:focus {
+    border-color: #e74c3c;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1em;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
