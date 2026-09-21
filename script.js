@@ -7,7 +7,7 @@ const botonEnviar = document.getElementById('boton');
 const contenedorResultado = document.getElementById('resultado');
 
 // Reemplaza ESTO por la clave que te llegó al correo
-const miApiKey = "TU_CLAVE_AQUI"; 
+const miApiKey = "9100cf4c"; 
 
 // 2. Le decimos al botón qué hacer cuando le hagan clic
 botonEnviar.addEventListener('click', function() {
