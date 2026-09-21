@@ -14,12 +14,22 @@
         <h1>Grupo 9</h1>
         <p class="nombres">Unai y Miren</p>
         <p class="asignatura">Servicios Telemáticos Avanzados</p>
-	<script src="script.js"></script>        
+        
         <!-- Requisito de la práctica: Campo de texto con un botón -->
         <div class="formulario">
-            <input type="text" placeholder="Escribe algo aquí...">
-            <button>Enviar</button>
+            <!-- Añadido id="buscador" -->
+            <input type="text" id="buscador" placeholder="Escribe una película (en inglés)...">
+            <!-- Añadido id="boton" -->
+            <button id="boton">Enviar</button>
         </div>
+
+        <!-- Contenedor vacío donde JS pintará el director y el año -->
+        <div id="resultado"></div>
     </div>
+
+    <!-- El script debe ir al final, justo antes de cerrar el body -->
+    <script src="script.js"></script>
 </body>
 </html>
+
+
